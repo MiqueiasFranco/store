@@ -6,14 +6,14 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./card-pricing.component.css']
 })
 export class CardPricingComponent implements OnInit {
-  
+
   @Input()
-  gameType:string="Digital PS4"
+  gameType: string = "Digital PS4"
   @Input()
-  gamePrice:string="399,90"
-  
-  constructor(){}
+  gamePrice: string = "399,90"
+
+  constructor() { }
   ngOnInit(): void {
-      
+
   }
 }

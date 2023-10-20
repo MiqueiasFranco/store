@@ -1,8 +1,9 @@
-.card-label-container{
+.card-label-container {
     position: absolute;
     bottom: 90px;
     right: 0;
 }
+
 .card-label-content {
     display: flex;
     align-items: center;
